@@ -63,7 +63,7 @@ const TransactionDetails = () => {
     <div>
       <div className="mb-4">
         <div>
-          <Card>
+          <Card className="!max-h-[324px]">
             <div>
               <Typography className="text-zinc-500 mt-2 mb-3 font-bold">
                 Transaction Details
@@ -136,7 +136,7 @@ const TransactionDetails = () => {
       </div>
       <div>
         <div>
-          <Card className="!h-[300px]">
+          <Card className="!max-h-[372px]">
             <div>
               <Typography className="text-zinc-500 mt-2 mb-3 font-bold">
                 Edit Transaction Details
